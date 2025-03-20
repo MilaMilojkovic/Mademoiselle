@@ -1,0 +1,29 @@
+$body-font: $lato;
+$play-font: $playfair;
+img{
+    max-width: 100%;
+}
+
+body{
+    line-height: 2.6rem;
+    font-weight: 300;
+    font-family: $body-font;
+}
+h1, .h1{
+  font-family: $play-font; 
+  line-height: 6.8rem;
+}
+
+h2, .h2{
+    font-family: $body-font; 
+  line-height: 5.3rem;
+  font-weight: 400;
+}
+h3, .h3{
+     font-family: $play-font; 
+  line-height: 4.6rem;
+}
+h4, .h4{
+    font-family: $body-font;
+    line-height: 2.4rem;
+}
