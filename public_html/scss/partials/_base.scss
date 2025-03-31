@@ -1,5 +1,5 @@
 $body-font: $lato;
-$play-font: $playfair;
+$second-font: $playfair;
 img{
     max-width: 100%;
 }
@@ -8,9 +8,10 @@ body{
     line-height: 2.6rem;
     font-weight: 300;
     font-family: $body-font;
+    letter-spacing: 10%;
 }
 h1, .h1{
-  font-family: $play-font; 
+  font-family: $second-font; 
   line-height: 6.8rem;
 }
 
@@ -20,7 +21,7 @@ h2, .h2{
   font-weight: 400;
 }
 h3, .h3{
-     font-family: $play-font; 
+     font-family: $second-font; 
   line-height: 4.6rem;
 }
 h4, .h4{
