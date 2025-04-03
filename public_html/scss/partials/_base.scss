@@ -11,20 +11,39 @@ body{
     letter-spacing: 10%;
 }
 h1, .h1{
-  font-family: $second-font; 
-  line-height: 6.8rem;
+    font-family: $second-font; 
+    line-height: 6.8rem;
 }
 
 h2, .h2{
     font-family: $body-font; 
-  line-height: 5.3rem;
-  font-weight: 400;
+    line-height: 5.3rem;
+    font-weight: 400;
 }
 h3, .h3{
-     font-family: $second-font; 
-  line-height: 4.6rem;
+    font-family: $second-font; 
+    line-height: 4.6rem;
 }
 h4, .h4{
     font-family: $body-font;
     line-height: 2.4rem;
+}
+.hover-section-title{
+    padding: 6.7rem 0 2.8rem;
+    margin-bottom: 0;
+
+    &:hover + .section-title-span{
+        width: 100%;
+    }
+
+}
+.section-title-span{
+    display: block;
+    width: 10%;
+    height: 3px;
+    background-color: #ECD9D9;
+    margin-bottom: 4.1rem;
+    transition: width 0.8s linear;
+
+
 }

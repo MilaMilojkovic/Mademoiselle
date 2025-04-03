@@ -1,6 +1,9 @@
 .beauty-section{
     overflow: hidden;
-    padding: 6.7rem 0 27.1rem;
+    padding: 6.7rem 0 27.1rem; //97 px bi trebbao prvi da se promeni
+    @media(min-width:768){
+        padding: 2rem 0 1rem;
+    }
     .beauty-section-title{
         letter-spacing: 10%;
         padding: 6.7rem 0 2.8rem;
