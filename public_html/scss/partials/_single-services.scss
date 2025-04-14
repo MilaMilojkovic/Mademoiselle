@@ -1,0 +1,21 @@
+.single-services-section{
+    .image-col{
+        margin-bottom: 1.5rem;
+        @media(min-width:992px){
+            margin-bottom: 0;
+        }
+    }
+    .text-col{
+        h2{
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            letter-spacing: 0%;
+            line-height: 5.3rem;
+            text-transform: uppercase;
+            @media(min-width:992px){
+                font-size: 4.4rem;
+                margin-bottom: 4.6rem;
+            }
+        }
+    }
+}
