@@ -1,0 +1,16 @@
+.blog-single-section{
+     margin-bottom: 1.5rem;
+     @media(min-width:768px){
+       margin-bottom: 7.7rem;  
+     }
+}
+.blog-single-content{
+    .blog-single-data{
+        p{
+            margin-bottom: 4.7rem;
+        }
+    }
+    .blog-single-tag{
+        margin-bottom: 22.7rem;
+    }
+}
